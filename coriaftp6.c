@@ -1,5 +1,27 @@
 #include <stdio.h>
 
+/*“Pedir al usuario que ingrese dos números (permitir ingresar número con 
+decimales). Luego presentar el siguiente menú: 
+1. Informar su suma 
+2. Informar su resta 
+3. Informar su multiplicación 
+4. Informar su división 
+5. Salir 
+Seleccione una operación: 
+Mostrar el resultado de la operación seleccionada. Si el usuario ingresa la opción 
+5 el programa debe terminar.” 
+Vamos a modificar el mismo de la siguiente manera, de modo que sean 6 las 
+opciones válidas: 
+1. Informar su suma 
+2. Informar su resta 
+3. Informar su multiplicación 
+4. Informar su división 
+5. Informar cantidad de operaciones realizadas 
+6. Salir 
+Seleccione una operación: 
+Se agregó una opción 5 que muestra la cantidad de operaciones que realizó el usuario. 
+El menú se debe seguir mostrando al usuario mientras este no ingrese la opción 6. */
+
 int main() {
     float num1, num2, resultado;
     int opcion;

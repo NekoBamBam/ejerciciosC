@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*Diseñar un programa que permita cargar números enteros por teclado (finaliza 
+con 0) e insertarlos al inicio de la lista. Luego, mostrar todos los valores 
+ingresados.*/
+
 struct Nodo {
     int dato;
     struct Nodo* siguiente;

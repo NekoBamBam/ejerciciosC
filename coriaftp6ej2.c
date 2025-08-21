@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/*Se desea leer las calificaciones de 5 alumnos, por cada alumno se leen 3 
+calificaciones. Mostrar el promedio por alumno y el promedio general.*/
+
 int main() {
     float calificaciones[5][3];
     float sumaAlumno, promedioAlumno;

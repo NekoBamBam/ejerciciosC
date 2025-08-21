@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/*Crear una función recursiva que cuente la cantidad de dígitos de un número 
+entero positivo. */
+
 // Función recursiva para contar los dígitos
 int contarDigitos(int n) {
     if (n < 10) {

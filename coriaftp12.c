@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+/*Simular el comportamiento de un navegador web con historial (pila), con las 
+siguientes funciones:
+- Ingresar a una nueva página (se apila la URL). 
+- Volver a la página anterior (desapilar). 
+- Ver la página actual (ver tope de pila). 
+- Mostrar todo el historial (recorrer la pila). */
+
 // Definir la estructura del nodo
 struct Nodo {
     char url[100];

@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/*Escriba un programa que lea 5 números por teclado, los copie a otro 
+array multiplicados por 2 y muestre el segundo array. */
+
 int main() {
     int numeros[5];
     int duplicados[5];

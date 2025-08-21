@@ -1,7 +1,15 @@
 #include <stdio.h>
 #include <string.h>
-
 #define MAX_PRODUCTOS 10000
+
+/*
+Un comercio mantiene su inventario en un arreglo de hasta 10000 productos, 
+con la estructura: 
+nroItem, producto, marca, tipo, costo, stockMin, stockActual. 
+Implementar un sistema que permita:
+- Insertar nuevos productos (manteniendo el arreglo ordenado por ‘nroItem’). 
+- Borrar productos por código. - Modificar productos.
+- Buscar un producto por número de ítem.*/
 
 // Definir la estructura Producto
 typedef struct {

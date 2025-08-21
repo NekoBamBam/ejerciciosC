@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-//TP4 EJ8
+/*Pedir el salario bruto de un empleado y calcular el salario neto con descuentos 
+del 11% de jubilación (Jub) y 3% de obra social (OS). Mostrar los importes de los 
+descuentos correspondientes. 
+Salario Neto = Salario Bruto – Dto. Jub – Dto. OS*/
+
 int main() {
     float salarioBruto, descuentoJub, descuentoOS, salarioNeto;
 

@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*Declare tres variables de tipo int para almacenar tres notas ingresadas por el usuario. 
+Calcule el promedio y muestre el resultado en pantalla con dos decimales de 
+precisiÃ³n. */
+
 int main()
 {
    //Tp 3
@@ -60,7 +64,7 @@ int main()
     printf("La suma es: %.2f, la resta es: %.2f, la multi es: %.2f y la div es: %.2f", sum, rest, mult, div);
 
     //Punto 4
-    //Declarar variable tipo char y asignarle la letra ´A´
+    //Declarar variable tipo char y asignarle la letra ï¿½Aï¿½
     //Mostrar su valor y equivalente en ASCII
 
     char letra = 'A';
@@ -81,7 +85,7 @@ int main()
 
     //Punto 6
     //Declarar variables tipo: char, float, int y double
-    //Utilizar funcion sizeof() que imprime tamaño en bytes
+    //Utilizar funcion sizeof() que imprime tamaï¿½o en bytes
     char string = 'Hola como estas';
     float pi = 3.14;
     int num = 22;
